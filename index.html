@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>enablehero</title>
+  <meta name="description" content="Something big is coming." />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      background: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      letter-spacing: -0.01em;
+    }
+
+    .wordmark {
+      font-size: clamp(2rem, 6vw, 4.5rem);
+      font-weight: 600;
+      line-height: 1;
+      color: #fff;
+    }
+
+    .tagline {
+      margin-top: 1.25rem;
+      font-size: clamp(0.875rem, 2vw, 1.125rem);
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.45);
+    }
+  </style>
+</head>
+<body>
+  <span class="wordmark">enablehero</span>
+  <p class="tagline">Something big is coming.</p>
+</body>
+</html>
